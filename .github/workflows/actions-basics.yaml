@@ -1,6 +1,6 @@
-name: CI Pipeline   # Name of the workflow shown in the Actions tab
+name: CI Pipelines   # Name of the workflow shown in the Actions tab
 
-on: push            # Trigger: workflow runs when code is pushed to the repository
+on: push         # Trigger: workflow runs when code is pushed to the repository
 
 jobs:               # Jobs section (similar to stages in :contentReference[oaicite:1]{index=1})
 
