@@ -1,4 +1,4 @@
-name: CI Pipeline   # Name of the workflow shown in the Actions tab
+name: CI Pipeline main  # Name of the workflow shown in the Actions tab
 
 on: push            # Trigger: workflow runs when code is pushed to the repository
 
