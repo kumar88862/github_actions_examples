@@ -1,0 +1,16 @@
+name: CI Pipeline   # Name of the workflow shown in the Actions tab
+
+on: push            # Trigger: workflow runs when code is pushed to the repository
+
+jobs:               # Jobs section (similar to stages in :contentReference[oaicite:1]{index=1})
+
+  build:            # Job name
+    runs-on: ubuntu-latest   # Runner (GitHub-hosted VM where the job executes)
+
+    steps:          # Steps executed sequentially inside the job
+
+      - name: Checkout code  # Step description
+        uses: actions/checkout@v4   # Action that clones the repository into the runner
+
+      - name: Run script     # Custom step
+        run: echo "Hello"    # Shell command executed on the runner
