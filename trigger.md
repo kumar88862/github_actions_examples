@@ -13,6 +13,7 @@ Common triggers:
 - release
 - workflow_call
 
+---
 1. push
 This trigger runs the workflow whenever code is pushed to a repository.
 
@@ -32,6 +33,7 @@ on:
 ```
 workflow start when the code is pushed to main branch. 
 
+
 2. pull_request
 This trigger runs when a Pull Request is created or updated.
 ```
@@ -39,5 +41,9 @@ on:
   pull_request:
   
 ```
+Events that trigger it
+- PR created
+- PR updated
+- PR reopened
 
 
