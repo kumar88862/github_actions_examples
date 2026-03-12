@@ -9,3 +9,7 @@ on:
         type: string
 jobs:
   example-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: example
+        run: ls 
