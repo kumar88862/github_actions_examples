@@ -1,0 +1,14 @@
+name: Build Application with parameters
+
+on:
+  workflow_dispatch
+
+job:
+  build:
+    run-on: ubuntu-latest
+    steps:
+      - name: checkout-repo
+      - uses: actions/checkout@v4
+      - name: build-application
+      - run: echo "Building project..."
+      

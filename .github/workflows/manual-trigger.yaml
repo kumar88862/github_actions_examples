@@ -10,3 +10,6 @@ jobs:
     steps:
       - name: Print message
         run: echo "This workflow was triggered manually!"
+
+  build:
+    uses: ./.github/workflows/reusable_build.yaml 
