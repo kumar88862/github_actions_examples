@@ -7,3 +7,6 @@ on:
         description: "Application Name"
         required: true
         type: string
+job:
+  example-job:
+  
