@@ -32,4 +32,12 @@ on:
 ```
 workflow start when the code is pushed to main branch. 
 
+2. pull_request
+This trigger runs when a Pull Request is created or updated.
+```
+on:
+  pull_request:
+  
+```
+
 
