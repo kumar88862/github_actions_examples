@@ -2,7 +2,7 @@ name: input examples
 
 on:
   workflow_dispatch:
-    input:
+    inputs:
       app_name: 
         description: "Application Name"
         required: true
@@ -12,4 +12,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: example
-        run: ls 
+        run: echo ${{ inputs.app_name }}
