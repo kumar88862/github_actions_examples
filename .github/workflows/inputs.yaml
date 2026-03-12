@@ -1,0 +1,9 @@
+name: input examples
+
+on:
+  workflow_dispatch:
+    input:
+      app_name: 
+        description: "Application Name"
+        required: true
+        type: string
